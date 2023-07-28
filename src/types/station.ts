@@ -7,7 +7,7 @@ export interface IStation {
   type: string[];
   latitude: string;
   longitude: string;
-  plugs: IPlug[];
+  plugs?: IPlug[];
   amenities?: string[];
 }
 

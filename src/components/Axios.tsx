@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const searchSuggest = `https://api.mapbox.com/search/searchbox/v1/suggest`;
-const searchRetrieve = `https://api.mapbox.com/search/searchbox/v1/retrieve/mapid?access_token&session_token`;
+// const searchRetrieve = `https://api.mapbox.com/search/searchbox/v1/retrieve/mapid?access_token&session_token`;
 
 export const searchSuggestions = (query: string) => {
   return axios.get(`${searchSuggest}`, {
